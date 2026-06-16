@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/auth_saml",
+  "description": "SAML Authentication (simpleSAMLphp required) — Composer/Packagist mirror of the Moodle plugin auth_saml, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-auth",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/auth_saml",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "3.4.* || 3.5.* || 3.6.* || 3.7.*"
+  },
+  "extra": {
+    "installer-name": "saml",
+    "moodle-composer": {
+      "component": "auth_saml"
+    }
+  }
+}
